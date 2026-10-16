@@ -2,16 +2,18 @@
 
 Source thread: `01a13c07-24b1-7513-8b9a-f1029a7298df`.
 
-Participants: Mark (User) and Codex (Assistant).
+Participants: User and Codex (Assistant).
 
 Coverage: M001 through M029, ending with the request to commit, push, and
 create a handoff for the next agent.
 
 Last captured source message: `01a14214-387f-73e0-8626-1aecedf3219f`.
 
-Message bodies are copied verbatim from the stored conversation. Numbered
-headings identify speakers and provide message references. Scope and navigation
-are documented in the [thread index](README.md).
+Message bodies reproduce the stored conversation with personal repository
+names, addresses, and local paths redacted. Redactions are labeled in the text;
+this transcript is no longer a verbatim copy. Numbered headings identify
+speakers and preserve message references. Scope and navigation are documented
+in the [thread index](README.md).
 
 ## M001 User
 
@@ -25,8 +27,8 @@ I’ll look for the Manifold repositories in the workspace and check what’s in
 
 Yes—both are empty locally, containing only `.git`, with no commits on `main`:
 
-- [manifold](/Users/mark/dev/repos/manifold) → `markreveley/manifold`
-- [manifold-mark](/Users/mark/dev/repos/manifold-mark) → `markreveley/manifold-mark`
+- manifold [local path redacted] → `[repository address redacted]`
+- client repository [local path redacted] → `[repository address redacted]`
 
 Both have their GitHub origins configured.
 
@@ -114,9 +116,9 @@ On your five questions:
 
 3. **Should Socrates be bundled? I would reuse its foundations before making it a dependency.**
 
-   Socrates already has typed statements, source preservation, provenance, revisions, structural validation, and dependency traversal. Its proposed [named views and re-prose workflow](/Users/mark/dev/repos/z_repos_archive/socrates/plans/0003-composition-and-measurement.md:20) is particularly close to your idea of exploring a collection through local views.
+   Socrates already has typed statements, source preservation, provenance, revisions, structural validation, and dependency traversal. Its proposed named views and re-prose workflow [local path redacted] is particularly close to your idea of exploring a collection through local views.
 
-   Its current [statement model](/Users/mark/dev/repos/z_repos_archive/socrates/lib/socrates/statement.ex:14), however, has one generic dependency list and one statement state. Manifold needs several independent judgments:
+   Its current statement model [local path redacted], however, has one generic dependency list and one statement state. Manifold needs several independent judgments:
 
    - The extraction faithfully represents the source.
    - The author endorses the proposition.
@@ -137,9 +139,9 @@ On your five questions:
 
 5. **How should library and data be separated? By reusable machinery versus the contents and judgments of a particular collection.**
 
-   Assuming `manifold` is the library and `manifold-mark` is your collection:
+   Assuming `manifold` is the library and `[client repository name redacted]` is your collection:
 
-   | `manifold` | `manifold-mark` |
+   | `manifold` | `[client repository name redacted]` |
    |---|---|
    | Schemas and their documented meanings | Source snapshots and passage anchors |
    | Validation and query tools | Extracted claims, definitions, questions |
@@ -189,7 +191,7 @@ A useful initial task could be:
 
 > Given this passage and proposed extraction, did the extraction preserve who asserts or believes what?
 
-We would first define the possible answers and work through examples ourselves. A model could then apply that same rubric. Your existing [JEV evaluation proposal](/Users/mark/dev/repos/evals/eval-resources/experiment-candidates/jev-unsupported-claims.md) already follows this order: define the criterion, establish manual judgments, then evaluate the grader.
+We would first define the possible answers and work through examples ourselves. A model could then apply that same rubric. Your existing JEV evaluation proposal [local path redacted] already follows this order: define the criterion, establish manual judgments, then evaluate the grader.
 
 There are two distinct numbers here:
 
@@ -350,7 +352,7 @@ agree. create files to where this information will be committed, and i will revi
 
 ## M017 Assistant commentary
 
-I’ll put the approved definitions and manual procedure in `manifold`, and the quoted specimen with its source information in `manifold-mark`. I’ll leave the files uncommitted for your review. I’m using the write-page skill for the prose files, with these repositories as the destinations.
+I’ll put the approved definitions and manual procedure in `manifold`, and the quoted specimen with its source information in `[client repository name redacted]`. I’ll leave the files uncommitted for your review. I’m using the write-page skill for the prose files, with these repositories as the destinations.
 
 ## M018 User
 
@@ -368,8 +370,8 @@ I’m keeping this to two README files: the library’s agreed definitions and p
 
 Created for your review:
 
-- [manifold/README.md](/Users/mark/dev/repos/manifold/README.md) — working constraints, approved definitions, and manual quotation procedure.
-- [manifold-mark/README.md](/Users/mark/dev/repos/manifold-mark/README.md) — first specimen, verbatim quotation, and source details.
+- manifold/README.md [local path redacted] — working constraints, approved definitions, and manual quotation procedure.
+- client repository/README.md [local path redacted] — first specimen, verbatim quotation, and source details.
 
 Both files remain uncommitted.
 
@@ -390,9 +392,9 @@ I found the stored conversation, so I can copy the message text directly and ver
 
 Done:
 
-- [README](/Users/mark/dev/repos/manifold/README.md) — removed date and conversation attribution.
-- [Thread index](/Users/mark/dev/repos/manifold/threads/README.md) — links to definitions, approvals, and feedback.
-- [Verbatim thread](/Users/mark/dev/repos/manifold/threads/2026-10-15-foundations.md) — 22 messages with stable references, verified exactly against stored message text.
+- README [local path redacted] — removed date and conversation attribution.
+- Thread index [local path redacted] — links to definitions, approvals, and feedback.
+- Verbatim thread [local path redacted] — 22 messages with stable references, verified exactly against stored message text.
 
 All changes remain uncommitted.
 
@@ -409,7 +411,7 @@ I’ll commit the reviewed files in both repositories.
 Committed both repositories:
 
 - `manifold`: `d849d4f` — definitions, procedure, and source thread.
-- `manifold-mark`: `9839466` — first quotation specimen.
+- `[client repository name redacted]`: `9839466` — first quotation specimen.
 
 Both working trees are clean. Commits are local.
 
