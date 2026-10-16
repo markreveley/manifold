@@ -44,3 +44,8 @@ This checks the accuracy of the copying.
 
 [Verbatim project threads](threads/README.md) preserve the discussions behind
 the library, with links to individual messages for investigation and reference.
+
+## Continuing the work
+
+[Handoff](handoff.md) records the current scope, open decisions, and instructions
+for the next agent.

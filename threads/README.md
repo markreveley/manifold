@@ -25,3 +25,4 @@ below are separate from the verbatim text.
 | Proposition definition | [Proposed definition](2026-10-15-foundations.md#m013-assistant), [approval](2026-10-15-foundations.md#m014-user) |
 | Verbatim quotation definition and manual procedure | [Proposal](2026-10-15-foundations.md#m015-assistant), [approval and request for files](2026-10-15-foundations.md#m016-user) |
 | Threads as library sources | [Mark's request](2026-10-15-foundations.md#m022-user) |
+| Commit, push, and handoff | [Mark's request](2026-10-15-foundations.md#m029-user) |

@@ -4,10 +4,10 @@ Source thread: `01a13c07-24b1-7513-8b9a-f1029a7298df`.
 
 Participants: Mark (User) and Codex (Assistant).
 
-Coverage: M001 through M022, ending with the request to preserve verbatim
-threads as library sources.
+Coverage: M001 through M029, ending with the request to commit, push, and
+create a handoff for the next agent.
 
-Last captured source message: `01a141ff-1e4b-75e0-ad0c-d34fe15416c4`.
+Last captured source message: `01a14214-387f-73e0-8626-1aecedf3219f`.
 
 Message bodies are copied verbatim from the stored conversation. Numbered
 headings identify speakers and provide message references. Scope and navigation
@@ -377,3 +377,42 @@ Both files remain uncommitted.
 
 remove the attribution (date and convo) from the readme. just the facts ma'am
 but, let's include the verbatim threads as a first class citizen of the library, as an investigatable and referencable source
+
+## M023 Assistant commentary
+
+I’ll remove the date and conversation notes from the README, then add this discussion as a verbatim thread with stable message references so the library’s decisions can be traced back to it.
+
+## M024 Assistant commentary
+
+I found the stored conversation, so I can copy the message text directly and verify it exactly. The thread will include your messages, assistant replies, and progress updates—including the corrections—with a separate index linking to the definitions and their approvals.
+
+## M025 Assistant
+
+Done:
+
+- [README](/Users/mark/dev/repos/manifold/README.md) — removed date and conversation attribution.
+- [Thread index](/Users/mark/dev/repos/manifold/threads/README.md) — links to definitions, approvals, and feedback.
+- [Verbatim thread](/Users/mark/dev/repos/manifold/threads/2026-10-15-foundations.md) — 22 messages with stable references, verified exactly against stored message text.
+
+All changes remain uncommitted.
+
+## M026 User
+
+commit
+
+## M027 Assistant commentary
+
+I’ll commit the reviewed files in both repositories.
+
+## M028 Assistant
+
+Committed both repositories:
+
+- `manifold`: `d849d4f` — definitions, procedure, and source thread.
+- `manifold-mark`: `9839466` — first quotation specimen.
+
+Both working trees are clean. Commits are local.
+
+## M029 User
+
+commit both repos and push. make sure nothing is left to be persisted. create a document handoff.md in the manifold for the next agent
